@@ -296,7 +296,9 @@ strong {
 .site-menu-header {
   background-image: url('../images/header/luisa-brimble-aFzg83dvnAI-unsplash.jpg');
 }
-
+.site-menuD-header {
+  background-image: url('../images/header/luisa-brimble-aFzg83dvnAI-unsplash2.jpg');
+}
 .site-news-header {
   background-image: url('../images/header/priscilla-du-preez-W3SEyZODn8U-unsplash.jpg');
 }
@@ -706,7 +708,15 @@ strong {
   padding-bottom: 7rem;
   position: relative;
 }
-
+.site-footer2 {
+  background-image: url('../images/daan-evers-tKN1WXrzQ3s-unsplash22.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  position: relative;
+}
 .site-footer::before {
   content: "";
   background: linear-gradient(to top, var(--dark-color), transparent 200%);
@@ -721,6 +731,21 @@ strong {
   position: relative;
 }
 
+
+
+.site-footer2::before {
+  content: "";
+  background: linear-gradient(to top, var(--dark-color), transparent 200%);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+
+.site-footer2 .container {
+  position: relative;
+}
 .tooplate-mt30 {
 	margin-top: 30px;
 }
